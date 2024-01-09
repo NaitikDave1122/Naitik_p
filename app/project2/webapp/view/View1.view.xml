@@ -1,0 +1,53 @@
+<mvc:View controllerName="project2.project2.controller.View1" xmlns:viz="sap.viz.ui5.controls" xmlns:vizData="sap.viz.ui5.data"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m" xmlns:l="sap.ui.layout" xmlns:viz.feeds="sap.viz.ui5.controls.common.feeds">
+    <Page id="page" title="Company Dashboard">
+     <l:BlockLayout background="Dashboard">
+        <l:content>
+            <l:BlockLayoutRow >
+                <l:content>
+                    <l:BlockLayoutCell id='cell' width="1">
+                    
+                        <l:content>
+                                <viz:VizFrame xmlns="sap.viz" id="idcolumn" height="400px" width="500px">
+                        <!-- Chart content -->
+                                 </viz:VizFrame>
+                        </l:content>
+                    </l:BlockLayoutCell>
+                    
+                    <l:BlockLayoutCell id='cell2' width="1">
+                        <l:content>
+                                     <viz:VizFrame xmlns="sap.viz" id="idDonutChart" height="400px" width="500px">
+                        <!-- Chart content -->
+                                      </viz:VizFrame>
+                        </l:content>
+                    </l:BlockLayoutCell>
+                
+                </l:content>
+            </l:BlockLayoutRow>
+             <l:BlockLayoutRow >
+                <l:content>
+                    <l:BlockLayoutCell id='cell3' width="1">
+                        <l:content>
+                             <viz:VizFrame xmlns="sap.viz" id="idPieChart" height="400px" width="500px">
+                        <!-- Chart content -->
+                             </viz:VizFrame>
+                        </l:content>
+                    </l:BlockLayoutCell>
+                    
+                    <l:BlockLayoutCell id='cell4' width="1">
+                        <l:content>
+                              <viz:VizFrame xmlns="sap.viz" id="Idlinechart" height="400px" width="500px">
+                      
+                             </viz:VizFrame>
+                        </l:content>
+                    </l:BlockLayoutCell>
+                
+                </l:content>
+            </l:BlockLayoutRow>
+            
+        
+        </l:content>
+    </l:BlockLayout>
+
+    </Page>
+</mvc:View>
