@@ -17,7 +17,6 @@
                     <l:BlockLayoutCell id='cell2' width="1">
                         <l:content>
                                      <viz:VizFrame xmlns="sap.viz" id="idDonutChart" height="400px" width="500px">
-                        <!-- Chart content -->
                                       </viz:VizFrame>
                         </l:content>
                     </l:BlockLayoutCell>
